@@ -1,0 +1,12 @@
+uuid: c54d65f8-f22c-4359-a3b7-f4d5e08e41ca
+langcode: en
+status: true
+dependencies: {  }
+id: migrate_drupal_
+label: 'Import from Drupal '
+description: 'Migrations originally generated from drush migrate-upgrade --configure-only'
+source_type: 'Drupal '
+module: null
+shared_configuration:
+  source:
+    key: legacy
