@@ -1,11 +1,38 @@
 uuid: 95371ce1-df05-4300-a2db-5d3493959ff5
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - block
+    - contextual
+    - node
+    - path
+    - system
+    - views_ui
 _core:
   default_config_hash: YI6mxtWUak15TWzCAFn_xqTv9e-qqlJsf5E4QbgjVdo
 id: administrator
 label: Administrator
-weight: 3
+weight: 4
 is_admin: true
-permissions: {  }
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access user profiles'
+  - 'administer blocks'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer url aliases'
+  - 'administer views'
+  - 'change own username'
+  - 'create page content'
+  - 'create url aliases'
+  - 'delete any page content'
+  - 'edit any page content'
+  - 'view own unpublished content'
+  - 'view the administration theme'

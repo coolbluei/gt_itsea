@@ -1,0 +1,21 @@
+uuid: 99dd6c09-f0d6-41e7-8c81-18461bf793b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_gt_ct_carousel
+label: 'Content - Carousel'
+type: 'canonical_entities:node'
+pattern: 'carousel/[node:nid]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      gt_ct_carousel: gt_ct_carousel
+selection_logic: and
+weight: 0
+relationships: {  }

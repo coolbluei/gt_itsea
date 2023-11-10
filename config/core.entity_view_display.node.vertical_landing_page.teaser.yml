@@ -1,0 +1,22 @@
+uuid: 3fd08c08-e5a3-4f56-9720-be63361053f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.vertical_landing_page.field_body_1
+    - node.type.vertical_landing_page
+  module:
+    - user
+id: node.vertical_landing_page.teaser
+targetEntityType: node
+bundle: vertical_landing_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body_1: true

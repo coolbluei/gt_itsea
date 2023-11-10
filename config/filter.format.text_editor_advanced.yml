@@ -1,0 +1,20 @@
+uuid: 742bcd5e-54aa-4b92-8594-f110d0b09477
+langcode: en
+status: true
+dependencies: {  }
+name: 'advanced text editor'
+format: text_editor_advanced
+weight: -8
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: -46
+    settings: {  }
+  filter_null:
+    id: filter_null
+    provider: filter
+    status: true
+    weight: -42
+    settings: {  }

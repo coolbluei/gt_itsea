@@ -1,0 +1,22 @@
+uuid: 27b16a8c-012b-4dd4-8637-9d213f0475dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nbsb_teaser_text
+    - node.type.super_block
+  module:
+    - text
+id: node.super_block.field_nbsb_teaser_text
+field_name: field_nbsb_teaser_text
+entity_type: node
+bundle: super_block
+label: 'Teaser text'
+description: 'Provide teaser text, if required.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,57 @@
+uuid: 4284f2eb-dd31-4b2e-a471-d04de81e597f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - action
+    - block
+    - contextual
+    - filter
+    - image
+    - node
+    - path
+    - pathauto
+    - system
+    - views_ui
+id: super_administrator
+label: 'Super Administrator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access user profiles'
+  - 'administer actions'
+  - 'administer blocks'
+  - 'administer content types'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer nodes'
+  - 'administer pathauto'
+  - 'administer permissions'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer themes'
+  - 'administer url aliases'
+  - 'administer users'
+  - 'administer views'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'create page content'
+  - 'create url aliases'
+  - 'delete any page content'
+  - 'delete own page content'
+  - 'edit any page content'
+  - 'edit own page content'
+  - 'notify of path changes'
+  - 'select account cancellation method'
+  - 'view own unpublished content'
+  - 'view the administration theme'

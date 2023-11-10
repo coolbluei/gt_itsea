@@ -1,0 +1,22 @@
+uuid: ca47011b-f0d6-411d-9657-9064414ec3bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gt_ct_carousel.field_gtct_crsl_slides
+    - node.type.gt_ct_carousel
+  module:
+    - user
+id: node.gt_ct_carousel.teaser
+targetEntityType: node
+bundle: gt_ct_carousel
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_gtct_crsl_slides: true

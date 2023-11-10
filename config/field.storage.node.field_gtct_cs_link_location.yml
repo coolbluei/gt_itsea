@@ -1,0 +1,19 @@
+uuid: 16dc6812-96bf-4c65-ba76-711e1d350dfe
+langcode: und
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_gtct_cs_link_location
+field_name: field_gtct_cs_link_location
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
